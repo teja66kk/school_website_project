@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Attendance Report</title>
+<link rel="stylesheet" href="attendance.css">
+</head>
+<body>
+<h1>Attendance Report</h1>
+<table class="attendance-table">
+<thead>
+<tr>
+<th>Course</th>
+<th>Total Classes</th>
+<th>Present</th>
+<th>Absent</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Java (031309014)</td>
+<td>12</td>
+<td>10</td>
+<td>2</td>
+<td><a href="javascript:void(0)" onclick="GetCourseInfo('031309014')">View Summary</a></td>
+</tr>
+<tr>
+<td>Computer Networks (031309031)</td>
+<td>13</td>
+<td>9</td>
+<td>4</td>
+<td><a href="javascript:void(0)" onclick="GetCourseInfo('031309031')">View Summary</a></td>
+</tr>
+<tr>
+<td>DSA (Lab) (031309034)</td>
+<td>10</td>
+<td>8</td>
+<td>2</td>
+<td><a href="javascript:void(0)" onclick="GetCourseInfo('LAB')">View Summary</a></td>
+</tr>
+<tr>
+<td>PQT (031309120)</td>
+<td>12</td>
+<td>11</td>
+<td>1</td>
+<td><a href="javascript:void(0)" onclick="GetCourseInfo('031309120')">View Summary</a></td>
+</tr>
+<tr>
+<td>English (031309050)</td>
+<td>13</td>
+<td>12</td>
+<td>1</td>
+<td><a href="javascript:void(0)" onclick="GetCourseInfo('031309050')">View Summary</a></td>
+</tr>
+<tr>
+<td>Communication Skills (031309023)</td>
+<td>10</td>
+<td>8</td>
+<td>2</td>
+<td><a href="javascript:void(0)" onclick="GetCourseInfo('031309023')">View Summary</a></td>
+</tr>
+</tbody>
+</table>
+<script>
+function GetCourseInfo(courseId) {
+alert("Course ID: " + courseId);
+}
+</script>
+</body>
+</html>

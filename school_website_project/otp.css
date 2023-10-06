@@ -1,0 +1,23 @@
+.container {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  button {
+    margin-top: 10px;
+    background-color: #337ab7;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }

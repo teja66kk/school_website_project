@@ -1,0 +1,59 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+th {
+  text-align: left;
+  background-color: #ddd;
+}
+
+.attendance-table {
+  margin-top: 20px;
+}
+
+.attendanceRow {
+  border-bottom: 1px solid #ccc;
+}
+
+.attendanceRowCourse {
+  width: 200px;
+}
+
+.attendanceRowStat {
+  width: 100px;
+}
+
+.attendanceRowStat a {
+  text-decoration: none;
+  color: #000;
+}
+/* Center the table on the page */
+.attendance-table {
+  margin: 0 auto;
+}
+
+/* Add some padding to the table cells */
+th, td {
+  padding: 10px;
+}
+
+/* Make the table headers a little larger */
+th {
+  font-size: 16px;
+}
+
+/* Change the color of the absent cells */
+.attendanceRowStat.absent {
+  color: #ff0000;
+}
+
+/* Add a hover effect to the table rows */
+.attendanceRow:hover {
+  background-color: #eee;
+}
